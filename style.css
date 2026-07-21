@@ -6,6 +6,9 @@ width: 50px;
     width: 100px;
     height:auto;
 }
+.airbnb{
+    width:20% ;
+}
 .container1 {
   display: flex;
   flex-direction: column;
@@ -24,7 +27,6 @@ a {
 }
 .first1{
     display: flex;
-    flex-direction: row;
     width: 100%;
     box-sizing: border-box;
     justify-content: space-between;
@@ -32,8 +34,9 @@ a {
 }
 .all-things{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     gap:35px;
+    width: 60%;
 }
 .all , .home, .experiences , .services{
     display: flex;
@@ -52,7 +55,9 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
     gap :15px;
+    width: 20%;
 }
 /**/
 .second1{
